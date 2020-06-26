@@ -4,6 +4,7 @@ var express     = require('express');
 var bodyParser  = require('body-parser');
 var cors        = require('cors');
 const helmet    = require ('helmet');
+require('dotenv').config();
 
 var apiRoutes         = require('./routes/api.js');
 var fccTestingRoutes  = require('./routes/fcctesting.js');
